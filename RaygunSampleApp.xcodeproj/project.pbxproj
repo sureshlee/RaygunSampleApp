@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9154EAC1BFDAF1B008130E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9154EAB1BFDAF1B008130E8 /* AppDelegate.swift */; };
+		F9154EAE1BFDAF1B008130E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9154EAD1BFDAF1B008130E8 /* ViewController.swift */; };
+		F9154EB11BFDAF1B008130E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9154EAF1BFDAF1B008130E8 /* Main.storyboard */; };
+		F9154EB41BFDAF1B008130E8 /* RaygunSampleApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F9154EB21BFDAF1B008130E8 /* RaygunSampleApp.xcdatamodeld */; };
+		F9154EB61BFDAF1B008130E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9154EB51BFDAF1B008130E8 /* Assets.xcassets */; };
+		F9154EB91BFDAF1B008130E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9154EB71BFDAF1B008130E8 /* LaunchScreen.storyboard */; };
+		F9154EC41BFDAF1B008130E8 /* RaygunSampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9154EC31BFDAF1B008130E8 /* RaygunSampleAppTests.swift */; };
+		F9154ECF1BFDAF1B008130E8 /* RaygunSampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9154ECE1BFDAF1B008130E8 /* RaygunSampleAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9154EC01BFDAF1B008130E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9154EA01BFDAF1B008130E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9154EA71BFDAF1B008130E8;
+			remoteInfo = RaygunSampleApp;
+		};
+		F9154ECB1BFDAF1B008130E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9154EA01BFDAF1B008130E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9154EA71BFDAF1B008130E8;
+			remoteInfo = RaygunSampleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9154EA81BFDAF1B008130E8 /* RaygunSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaygunSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9154EAB1BFDAF1B008130E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9154EAD1BFDAF1B008130E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9154EB01BFDAF1B008130E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9154EB31BFDAF1B008130E8 /* RaygunSampleApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RaygunSampleApp.xcdatamodel; sourceTree = "<group>"; };
+		F9154EB51BFDAF1B008130E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9154EB81BFDAF1B008130E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9154EBA1BFDAF1B008130E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9154EBF1BFDAF1B008130E8 /* RaygunSampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaygunSampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9154EC31BFDAF1B008130E8 /* RaygunSampleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaygunSampleAppTests.swift; sourceTree = "<group>"; };
+		F9154EC51BFDAF1B008130E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9154ECA1BFDAF1B008130E8 /* RaygunSampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaygunSampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9154ECE1BFDAF1B008130E8 /* RaygunSampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaygunSampleAppUITests.swift; sourceTree = "<group>"; };
+		F9154ED01BFDAF1B008130E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9154EA51BFDAF1B008130E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9154EBC1BFDAF1B008130E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9154EC71BFDAF1B008130E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9154E9F1BFDAF1B008130E8 = {
+			isa = PBXGroup;
+			children = (
+				F9154EAA1BFDAF1B008130E8 /* RaygunSampleApp */,
+				F9154EC21BFDAF1B008130E8 /* RaygunSampleAppTests */,
+				F9154ECD1BFDAF1B008130E8 /* RaygunSampleAppUITests */,
+				F9154EA91BFDAF1B008130E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9154EA91BFDAF1B008130E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9154EA81BFDAF1B008130E8 /* RaygunSampleApp.app */,
+				F9154EBF1BFDAF1B008130E8 /* RaygunSampleAppTests.xctest */,
+				F9154ECA1BFDAF1B008130E8 /* RaygunSampleAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9154EAA1BFDAF1B008130E8 /* RaygunSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				F9154EAB1BFDAF1B008130E8 /* AppDelegate.swift */,
+				F9154EAD1BFDAF1B008130E8 /* ViewController.swift */,
+				F9154EAF1BFDAF1B008130E8 /* Main.storyboard */,
+				F9154EB51BFDAF1B008130E8 /* Assets.xcassets */,
+				F9154EB71BFDAF1B008130E8 /* LaunchScreen.storyboard */,
+				F9154EBA1BFDAF1B008130E8 /* Info.plist */,
+				F9154EB21BFDAF1B008130E8 /* RaygunSampleApp.xcdatamodeld */,
+			);
+			path = RaygunSampleApp;
+			sourceTree = "<group>";
+		};
+		F9154EC21BFDAF1B008130E8 /* RaygunSampleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9154EC31BFDAF1B008130E8 /* RaygunSampleAppTests.swift */,
+				F9154EC51BFDAF1B008130E8 /* Info.plist */,
+			);
+			path = RaygunSampleAppTests;
+			sourceTree = "<group>";
+		};
+		F9154ECD1BFDAF1B008130E8 /* RaygunSampleAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F9154ECE1BFDAF1B008130E8 /* RaygunSampleAppUITests.swift */,
+				F9154ED01BFDAF1B008130E8 /* Info.plist */,
+			);
+			path = RaygunSampleAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9154EA71BFDAF1B008130E8 /* RaygunSampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9154ED31BFDAF1B008130E8 /* Build configuration list for PBXNativeTarget "RaygunSampleApp" */;
+			buildPhases = (
+				F9154EA41BFDAF1B008130E8 /* Sources */,
+				F9154EA51BFDAF1B008130E8 /* Frameworks */,
+				F9154EA61BFDAF1B008130E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RaygunSampleApp;
+			productName = RaygunSampleApp;
+			productReference = F9154EA81BFDAF1B008130E8 /* RaygunSampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9154EBE1BFDAF1B008130E8 /* RaygunSampleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9154ED61BFDAF1B008130E8 /* Build configuration list for PBXNativeTarget "RaygunSampleAppTests" */;
+			buildPhases = (
+				F9154EBB1BFDAF1B008130E8 /* Sources */,
+				F9154EBC1BFDAF1B008130E8 /* Frameworks */,
+				F9154EBD1BFDAF1B008130E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9154EC11BFDAF1B008130E8 /* PBXTargetDependency */,
+			);
+			name = RaygunSampleAppTests;
+			productName = RaygunSampleAppTests;
+			productReference = F9154EBF1BFDAF1B008130E8 /* RaygunSampleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9154EC91BFDAF1B008130E8 /* RaygunSampleAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9154ED91BFDAF1B008130E8 /* Build configuration list for PBXNativeTarget "RaygunSampleAppUITests" */;
+			buildPhases = (
+				F9154EC61BFDAF1B008130E8 /* Sources */,
+				F9154EC71BFDAF1B008130E8 /* Frameworks */,
+				F9154EC81BFDAF1B008130E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9154ECC1BFDAF1B008130E8 /* PBXTargetDependency */,
+			);
+			name = RaygunSampleAppUITests;
+			productName = RaygunSampleAppUITests;
+			productReference = F9154ECA1BFDAF1B008130E8 /* RaygunSampleAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9154EA01BFDAF1B008130E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = tringapps;
+				TargetAttributes = {
+					F9154EA71BFDAF1B008130E8 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					F9154EBE1BFDAF1B008130E8 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F9154EA71BFDAF1B008130E8;
+					};
+					F9154EC91BFDAF1B008130E8 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F9154EA71BFDAF1B008130E8;
+					};
+				};
+			};
+			buildConfigurationList = F9154EA31BFDAF1B008130E8 /* Build configuration list for PBXProject "RaygunSampleApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9154E9F1BFDAF1B008130E8;
+			productRefGroup = F9154EA91BFDAF1B008130E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9154EA71BFDAF1B008130E8 /* RaygunSampleApp */,
+				F9154EBE1BFDAF1B008130E8 /* RaygunSampleAppTests */,
+				F9154EC91BFDAF1B008130E8 /* RaygunSampleAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9154EA61BFDAF1B008130E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9154EB91BFDAF1B008130E8 /* LaunchScreen.storyboard in Resources */,
+				F9154EB61BFDAF1B008130E8 /* Assets.xcassets in Resources */,
+				F9154EB11BFDAF1B008130E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9154EBD1BFDAF1B008130E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9154EC81BFDAF1B008130E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9154EA41BFDAF1B008130E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9154EAE1BFDAF1B008130E8 /* ViewController.swift in Sources */,
+				F9154EB41BFDAF1B008130E8 /* RaygunSampleApp.xcdatamodeld in Sources */,
+				F9154EAC1BFDAF1B008130E8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9154EBB1BFDAF1B008130E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9154EC41BFDAF1B008130E8 /* RaygunSampleAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9154EC61BFDAF1B008130E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9154ECF1BFDAF1B008130E8 /* RaygunSampleAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9154EC11BFDAF1B008130E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9154EA71BFDAF1B008130E8 /* RaygunSampleApp */;
+			targetProxy = F9154EC01BFDAF1B008130E8 /* PBXContainerItemProxy */;
+		};
+		F9154ECC1BFDAF1B008130E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9154EA71BFDAF1B008130E8 /* RaygunSampleApp */;
+			targetProxy = F9154ECB1BFDAF1B008130E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9154EAF1BFDAF1B008130E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9154EB01BFDAF1B008130E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9154EB71BFDAF1B008130E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9154EB81BFDAF1B008130E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9154ED11BFDAF1B008130E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9154ED21BFDAF1B008130E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9154ED41BFDAF1B008130E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RaygunSampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tringapps.RaygunSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F9154ED51BFDAF1B008130E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RaygunSampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tringapps.RaygunSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F9154ED71BFDAF1B008130E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RaygunSampleAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tringapps.RaygunSampleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RaygunSampleApp.app/RaygunSampleApp";
+			};
+			name = Debug;
+		};
+		F9154ED81BFDAF1B008130E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RaygunSampleAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tringapps.RaygunSampleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RaygunSampleApp.app/RaygunSampleApp";
+			};
+			name = Release;
+		};
+		F9154EDA1BFDAF1B008130E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RaygunSampleAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tringapps.RaygunSampleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RaygunSampleApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F9154EDB1BFDAF1B008130E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RaygunSampleAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tringapps.RaygunSampleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RaygunSampleApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9154EA31BFDAF1B008130E8 /* Build configuration list for PBXProject "RaygunSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9154ED11BFDAF1B008130E8 /* Debug */,
+				F9154ED21BFDAF1B008130E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9154ED31BFDAF1B008130E8 /* Build configuration list for PBXNativeTarget "RaygunSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9154ED41BFDAF1B008130E8 /* Debug */,
+				F9154ED51BFDAF1B008130E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9154ED61BFDAF1B008130E8 /* Build configuration list for PBXNativeTarget "RaygunSampleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9154ED71BFDAF1B008130E8 /* Debug */,
+				F9154ED81BFDAF1B008130E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9154ED91BFDAF1B008130E8 /* Build configuration list for PBXNativeTarget "RaygunSampleAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9154EDA1BFDAF1B008130E8 /* Debug */,
+				F9154EDB1BFDAF1B008130E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F9154EB21BFDAF1B008130E8 /* RaygunSampleApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F9154EB31BFDAF1B008130E8 /* RaygunSampleApp.xcdatamodel */,
+			);
+			currentVersion = F9154EB31BFDAF1B008130E8 /* RaygunSampleApp.xcdatamodel */;
+			path = RaygunSampleApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F9154EA01BFDAF1B008130E8 /* Project object */;
+}
